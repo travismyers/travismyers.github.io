@@ -5,6 +5,7 @@
   "homepage": "https://travismyers.github.io/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "jquery": "3.3.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
