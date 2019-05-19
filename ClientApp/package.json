@@ -2,6 +2,7 @@
   "name": "travismyers.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://travismyers.github.io/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "3.3.1",
@@ -31,6 +32,8 @@
     "start": "rimraf ./build && react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/"
   }
